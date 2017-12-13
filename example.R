@@ -2,7 +2,7 @@
 #Copy favicon.ico from GitHub and save your profile pic as profile.png.
 #Go to http://fontawesome.io/get-started/ and enter your email address.
 #Check your email. 
-#Get your hex code (FontAwesomeScriptHex) from 
+#Get your script code (FontAwesomeScriptHex) from 
 # <script src="https://use.fontawesome.com/FontAwesomeScriptHex.js">
 # </script> as shown in email.    
 source("resumeFunctions.R") 
@@ -57,6 +57,8 @@ for client reports. Using R, mySQL, HTML and Bootstrap, I developed a program th
               ease across desktops and a range of mobile devices. The results are 
               illustrated using pie charts, bar charts and histograms.')
 
+#To create list set addListAfterColon=TRUE. Everything after : will be created as a list. 
+#Beginning of each list element should be indicated by *.
 addExperience(jobTitle='Analyst - Intern',duration='December 2016-July 2016',
               companyName='iSelect',experience='I completed the following tasks:* 
               I  developed a software package for predicting probability of 
